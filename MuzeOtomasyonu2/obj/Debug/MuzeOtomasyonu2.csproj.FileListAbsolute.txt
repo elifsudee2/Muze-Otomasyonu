@@ -1,0 +1,17 @@
+C:\Users\gunes\Desktop\NesneselTasarımVeProg\MuzeOtomasyonu2\MuzeOtomasyonu2\bin\Debug\MuzeOtomasyonu2.exe.config
+C:\Users\gunes\Desktop\NesneselTasarımVeProg\MuzeOtomasyonu2\MuzeOtomasyonu2\bin\Debug\MuzeOtomasyonu2.exe
+C:\Users\gunes\Desktop\NesneselTasarımVeProg\MuzeOtomasyonu2\MuzeOtomasyonu2\bin\Debug\MuzeOtomasyonu2.pdb
+C:\Users\gunes\Desktop\NesneselTasarımVeProg\MuzeOtomasyonu2\MuzeOtomasyonu2\bin\Debug\EntityFramework.dll
+C:\Users\gunes\Desktop\NesneselTasarımVeProg\MuzeOtomasyonu2\MuzeOtomasyonu2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\gunes\Desktop\NesneselTasarımVeProg\MuzeOtomasyonu2\MuzeOtomasyonu2\bin\Debug\EntityFramework.xml
+C:\Users\gunes\Desktop\NesneselTasarımVeProg\MuzeOtomasyonu2\MuzeOtomasyonu2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\gunes\Desktop\NesneselTasarımVeProg\MuzeOtomasyonu2\MuzeOtomasyonu2\obj\Debug\MuzeOtomasyonu2.csproj.AssemblyReference.cache
+C:\Users\gunes\Desktop\NesneselTasarımVeProg\MuzeOtomasyonu2\MuzeOtomasyonu2\obj\Debug\MuzeOtomasyonu2.Form1.resources
+C:\Users\gunes\Desktop\NesneselTasarımVeProg\MuzeOtomasyonu2\MuzeOtomasyonu2\obj\Debug\MuzeOtomasyonu2.Properties.Resources.resources
+C:\Users\gunes\Desktop\NesneselTasarımVeProg\MuzeOtomasyonu2\MuzeOtomasyonu2\obj\Debug\MuzeOtomasyonu2.csproj.GenerateResource.cache
+C:\Users\gunes\Desktop\NesneselTasarımVeProg\MuzeOtomasyonu2\MuzeOtomasyonu2\obj\Debug\MuzeOtomasyonu2.csproj.CoreCompileInputs.cache
+C:\Users\gunes\Desktop\NesneselTasarımVeProg\MuzeOtomasyonu2\MuzeOtomasyonu2\obj\Debug\MuzeOtom.E4EEDE54.Up2Date
+C:\Users\gunes\Desktop\NesneselTasarımVeProg\MuzeOtomasyonu2\MuzeOtomasyonu2\obj\Debug\MuzeOtomasyonu2.exe
+C:\Users\gunes\Desktop\NesneselTasarımVeProg\MuzeOtomasyonu2\MuzeOtomasyonu2\obj\Debug\MuzeOtomasyonu2.pdb
+C:\Users\gunes\Desktop\NesneselTasarımVeProg\MuzeOtomasyonu2\MuzeOtomasyonu2\obj\Debug\MuzeOtomasyonu2.exe.config
+C:\Users\gunes\Desktop\NesneselTasarımVeProg\MuzeOtomasyonu2\MuzeOtomasyonu2\obj\Debug\MuzeOtomasyonu2.Form_EserIslemleri.resources
