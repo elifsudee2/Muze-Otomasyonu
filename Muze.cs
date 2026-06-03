@@ -21,7 +21,7 @@ namespace MuzeOtomasyonu2
         [Required, MaxLength(50)]
         public string Sehir { get; set; }
 
-        // Bir müzede birden fazla eser olabilir ilişkisi
+    
         public virtual ICollection<Eserler> Eserler { get; set; }
         
     }
