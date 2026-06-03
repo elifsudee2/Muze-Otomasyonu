@@ -20,8 +20,7 @@ namespace MuzeOtomasyonu2
         [MaxLength(50)]
         public string Ulke { get; set; }
 
-        // Eser tablosu ile ilişki köprüsü (Navigation Property)
-        // Bir sanatçının birden fazla eseri olabilir
+        
         public virtual ICollection<Eserler> Eserler { get; set; }
     }
 }
