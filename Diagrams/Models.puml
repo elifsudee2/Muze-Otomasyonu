@@ -1,0 +1,49 @@
+@startuml
+title MuzeOtomasyonu2 - Veri Modelleri (UML)
+
+' Sýnýflar (alanlar sadece temel özellikler gösteriliyor)
+class Eserler {
+  +int EserID
+  +string EserAdý
+  +int Yýlý
+  +int? SanatciID
+  +int KategoriID
+  +int MuzeID
+}
+
+class Sanatcýlar {
+  +int SanatciID
+  +string Ad
+  +string Ulke
+}
+
+class Kategori {
+  +int KategoriID
+  +string TurAd
+}
+
+class Muze {
+  +int MuzeID
+  +string MuzeAdý
+  +string Sehir
+}
+
+class MuzeDbContext {
+  +DbSet<Eserler> Eserler
+  +DbSet<Kategori> Kategoriler
+  +DbSet<Sanatcýlar> Sanatcýlar
+  +DbSet<Muze> Muzeler
+}
+
+' Ýliþkiler
+Sanatcýlar "1" <-- "0..*" Eserler : "Sanatçý - Eserler"
+Kategori "1" <-- "0..*" Eserler : "Kategori - Eserler"
+Muze "1" <-- "0..*" Eserler : "Müze - Eserler"
+
+' DbContext baðýmlýlýðý (isteðe baðlý gösterim)
+MuzeDbContext ..> Eserler : manages
+MuzeDbContext ..> Kategori : manages
+MuzeDbContext ..> Sanatcýlar : manages
+MuzeDbContext ..> Muze : manages
+
+@enduml
