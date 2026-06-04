@@ -1,25 +1,48 @@
 # Muze-Otomasyonu
+🏛️ Müze Otomasyon Sistemi (Museum Automation System)
+Bu proje, bir müzedeki eserlerin, sanatçıların, kategorilerin ve müze lokasyonlarının yönetimini dijitalleştirmek amacıyla geliştirilmiş bir Masaüstü Otomasyon Sistemidir.
 
-Muze-Otomasyonu: Dijital Müze ve Koleksiyon Yönetim Sistemi
-Proje Tanımı ve Amaç
-Muze-Otomasyonu, müze ve sanat galerisi gibi kurumsal yapıların envanter yönetimi, sanatçı arşivleme ve sergileme süreçlerini dijitalleştirmek için tasarlanmış kapsamlı bir masaüstü otomasyon çözümüdür. Bu projenin temel amacı, klasik müze yönetimi süreçlerinde karşılaşılan veri karmaşasını ortadan kaldırmak; sanat eserleri, sanatçılar ve koleksiyonlar arasındaki ilişkisel veriyi merkezi bir sistemde, yüksek doğruluk ve sürdürülebilirlik ile yönetmektir.
+Proje, ilişkisel veritabanı mantığını ve Entity Framework 6 (EF6) mimarisini temel alarak modern yazılım geliştirme standartlarına uygun olarak tasarlanmıştır.
 
-Teknik Mimari ve Geliştirme Süreci
-Proje, modülerlik ve ölçeklenebilirlik hedefleri gözetilerek Katmanlı Mimari (N-Tier Architecture) prensipleri ile geliştirilmiştir. Bu sayede sunum katmanı (UI), iş mantığı (Business Logic) ve veri erişim katmanı (Data Access) birbirinden ayrıştırılarak kodun bakımı ve geliştirilmesi kolaylaştırılmıştır.
+🚀 Öne Çıkan Özellikler
+İlişkisel Veri Yönetimi: Eserler, Sanatçılar, Kategoriler ve Müzeler arasındaki 1-N (One-to-Many) ilişkilerin profesyonel yönetimi.
 
-Ön Yüz (User Interface): Windows Forms kullanılarak, kullanıcı dostu ve hızlı erişilebilir bir arayüz tasarlanmıştır.
+Dinamik Listeleme: DataGridView üzerinden veritabanındaki tüm kayıtların anlık olarak görüntülenmesi.
 
-Veri Erişim Katmanı (Data Access Layer): Veritabanı ile uygulama arasındaki iletişim, Entity Framework (EF) kullanılarak yönetilmiştir. Bu sayede ORM (Object-Relational Mapping) yapısı sayesinde veritabanı işlemleri nesne yönelimli bir yaklaşımla gerçekleştirilmiştir.
+Akıllı Veri Girişi: ComboBox entegrasyonu sayesinde kullanıcıların ID girmek yerine isim üzerinden (Sanatçı, Müze vb.) seçim yapabilmesi.
 
-Veritabanı Yönetimi: MS SQL Server kullanılarak, verilerin ilişkisel bütünlüğü (Referential Integrity) Foreign Key ve Primary Key yapısı ile güvence altına alınmıştır.
+Veri Güvenliği (Data Annotations): Model seviyesinde kısıtlamalar ([Key], [Required], [MaxLength]) ile veritabanı tutarlılığının korunması.
 
-Veri İşleme ve Sorgulama: Karmaşık veri raporlamaları ve istatistiksel analizler için LINQ (Language Integrated Query) sorguları tercih edilerek, sistemin performanslı ve hatasız çalışması sağlanmıştır.
+Hata Yönetimi: Try-Catch blokları ve veritabanı bağlantı kontrolleri ile kesintisiz kullanıcı deneyimi.
 
-Temel Fonksiyonel Yetenekler
-Sistem, bir müze yönetiminin ihtiyaç duyabileceği tüm kritik işlemleri kapsamaktadır:
+🛠️ Kullanılan Teknolojiler
+Programlama Dili: C# (.NET Framework)
 
-Gelişmiş CRUD İşlemleri: Sanatçı portföyleri, sanat eseri detayları ve müze envanteri üzerinde tüm ekleme, güncelleme, listeleme ve silme işlemleri, veri tutarlılığı kuralları çerçevesinde yürütülmektedir.
+Arayüz: Windows Forms (WinForms)
 
-İstatistiksel Analiz Modülü: Koleksiyon verileri üzerinde gerçekleştirilen istatistiksel hesaplamalar ile sanatçı bazlı eser sayıları, dönemsel dağılımlar gibi kritik veriler görselleştirilebilir hale getirilmiştir.
+Veritabanı: Microsoft SQL Server (MSSQL)
 
-İlişkisel Veri Sorgulama: Sanatçı-Eser-Müze üçlüsü arasındaki tüm bağlantılar, SQL JOIN işlemleri ve ilişkisel haritalama teknikleri ile optimize edilmiştir.
+ORM: Entity Framework 6 (Code-First / Database-First Mapping)
+
+Kütüphaneler:
+
+System.Data.Entity
+
+System.ComponentModel.DataAnnotations
+
+📊 Veritabanı Mimarisi
+Sistem 4 ana tablodan oluşmaktadır:
+
+Eserler: Müzede bulunan eserlerin adı, yılı ve ilişkili olduğu diğer tabloların kimlikleri.
+
+Sanatçılar: Eseri yaratan sanatçının adı ve köken bilgisi.
+
+Kategoriler: Eserin türü (Resim, Heykel, Arkeolojik Eser vb.).
+
+Müzeler: Eserin sergilendiği fiziksel konum ve şehir bilgisi.
+
+
+📝 Geliştirici Notu
+Bu proje, Entity Framework mimarisini öğrenme sürecimin bir parçası olarak geliştirilmiştir. Veri modellerinin oluşturulması, ilişkisel tabloların yönetimi ve DbContext yapılandırması üzerinde detaylı çalışmalar içerir.
+
+Geliştirici: Elif G.
