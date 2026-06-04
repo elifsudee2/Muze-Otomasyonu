@@ -45,4 +45,4 @@ Müzeler: Eserin sergilendiği fiziksel konum ve şehir bilgisi.
 📝 Geliştirici Notu
 Bu proje, Entity Framework mimarisini öğrenme sürecimin bir parçası olarak geliştirilmiştir. Veri modellerinin oluşturulması, ilişkisel tabloların yönetimi ve DbContext yapılandırması üzerinde detaylı çalışmalar içerir.
 
-Geliştirici: Elif G.
+Geliştirici: Elif Sude Güneş
