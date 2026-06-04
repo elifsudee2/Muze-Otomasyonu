@@ -1,9 +1,5 @@
 # Muze-Otomasyonu
 
-Elif, projenin hem teknik kapasitesini vurgulayan hem de akademik bir ciddiyetle hazırlanan, hocanın projenin arka planındaki mantığı daha iyi anlamasını sağlayacak daha detaylı bir metin hazırladım. Bu metin, projenin sadece kod yığını olmadığını, aynı zamanda bir mühendislik disipliniyle tasarlandığını anlatır.
-
-GitHub README.md dosyanda kullanabilirsin:
-
 Muze-Otomasyonu: Dijital Müze ve Koleksiyon Yönetim Sistemi
 Proje Tanımı ve Amaç
 Muze-Otomasyonu, müze ve sanat galerisi gibi kurumsal yapıların envanter yönetimi, sanatçı arşivleme ve sergileme süreçlerini dijitalleştirmek için tasarlanmış kapsamlı bir masaüstü otomasyon çözümüdür. Bu projenin temel amacı, klasik müze yönetimi süreçlerinde karşılaşılan veri karmaşasını ortadan kaldırmak; sanat eserleri, sanatçılar ve koleksiyonlar arasındaki ilişkisel veriyi merkezi bir sistemde, yüksek doğruluk ve sürdürülebilirlik ile yönetmektir.
